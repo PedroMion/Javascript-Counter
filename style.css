@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: rgb(36,22,35);
+    background: linear-gradient(0deg, rgba(36,22,35,1) 20%, rgba(114,38,189,1) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 700px;
+    width: 70%;
+    border-radius: 100px;
+}
+
+.text {
+    font-size: 40px;
+    color: white;
+}
+
+.countdownarea {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.countdown {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    background: rgb(36,22,35);
+    background: linear-gradient(0deg, rgba(36,22,35,1) 20%, rgba(114,38,189,1) 100%);
+    width: 80%;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+#day, #hour, #minute, #second {
+    font-size: 100px;
+    color: white;
+}
