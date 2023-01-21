@@ -2,5 +2,9 @@
 
 This project is a countdown clock to 2024 in javascript.
 
-## 💻 Tecnologias
+## 💻 Tecnologies
 - JavaScript
+
+## 🧔 Website
+
+https://2024-javascript-countdown.netlify.app
