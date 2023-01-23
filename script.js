@@ -29,7 +29,6 @@ const getTime = () => {
     
     var remainingDays = Math.trunc(days);
     var remainingHours = Math.trunc(hours%24);
-    console.log(hours);
     var remainingMinutes = Math.trunc(minutes%60);
     var remainingSeconds = Math.trunc(seconds%60);
 
