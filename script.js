@@ -1,4 +1,4 @@
-var timestamp_2024 = new Date('January 1, 2024 00:00:00 GMT+00:00').getTime();
+const timestamp_2024 = new Date('January 1, 2024 00:00:00 GMT-03:00').getTime();
 
 const daysButton = document.querySelector("#day");
 const hoursButton = document.querySelector('#hour');
@@ -29,6 +29,7 @@ const getTime = () => {
     
     var remainingDays = Math.trunc(days);
     var remainingHours = Math.trunc(hours%24);
+    console.log(hours);
     var remainingMinutes = Math.trunc(minutes%60);
     var remainingSeconds = Math.trunc(seconds%60);
 
